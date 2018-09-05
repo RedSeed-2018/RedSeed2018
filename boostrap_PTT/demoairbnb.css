@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+ 
+}
+
+.header__form p{
+  text-align: center;
+  font-weight: bold;
+}
+.header__form input{
+  width:100%;
+}
+select{
+  width:100%;
+}
+.header__form{
+  background: white;
+  
+  border-radius: 2%;
+  padding:15px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+}
+.header__form__button{
+  color:white;
+  font-weight: bold;
+  background: rgb(250,90,95);
+  width:100%;
+  border:solid rgb(250,90,95) 1px;
+  display: block;
+}
+.header__form__item{
+  height:40px;
+
+}
+
+.tit{
+  font-family:Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif ;
+  font-size: 24px;
+  font-weight: bold;
+}
+.author ul li{
+list-style-type: none;
+display: inline-block;
+}
+.author_image{
+  border-radius:50%;
+}
+.booking_apartment_container > p{
+  color:black;
+  text-decoration:none;
+}
+.add_date_button{
+  color:white;
+  font-weight: bold;
+  background: rgb(0, 132, 137);
+  display: block;
+  height: 40px;
+  width:15%;
+  border:solid rgb(0, 132, 137) 1px;
+}
+.navigation ul li {
+
+  text-decoration:none;
+  list-style-type:none;
+}
+ .navi_item li a{
+  color:#767676;
+
+   font-weight:bold
+}
+.soical_item{
+  display:inline-block;
+}
+.container{
+      font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+.header{
+  background-image: url("https://a0.muscache.com/4ea/air/r:w3100-h1200-sfit,e:fjpg-c80/pictures/a2ff3a00-d803-4255-ab84-4daaef3e88b6.jpg");
+  background-size: cover;
+}
+
+
+
+
+
+/* @media only screen and (min-width: 992px) {
+  .bg{
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+  }
+    #form{
+    margin-top:50px;
+  }
+} */
+@media only screen and (max-width: 992px) {
+  #header__form__id{
+    width:100%;
+  }
+
+}
+hr{
+  color: #767676;
+}
+.apartment_container{
+  margin-top: 100px;
+}
+.header{
+  margin-bottom: 100px;
+}
+.apartment_container__image img{
+  border-radius: 2%;
+}
+.booking_apartment_container{
+  margin-bottom:50px;
+}
+.booking_apartment_image img{
+  border-radius:2%;
+}
+h* {
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+
+
