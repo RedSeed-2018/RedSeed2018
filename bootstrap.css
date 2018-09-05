@@ -1,0 +1,146 @@
+.header__image img{
+	width: 100%;
+	height: 635px;
+	object-fit: cover;
+	position: relative;
+}
+.header__infomation{
+	width: 100%;
+	background-color: white;
+	padding:30px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 70px;
+}
+
+@media only screen and (max-width: 1199px) {
+	.header__infomation{
+		width: 100%;
+		position: relative;
+		margin-top:80px; 
+		margin-bottom: -80px;
+		padding:0px;
+	}
+	.header__infomation > .header__title{
+		position: absolute;
+		top: -115px;
+		color: white;
+	}
+	.header__image img{
+		width: 100%;
+		height: 230px;
+		object-fit: cover;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+	.header__infomation > .header__title >p{
+		visibility: hidden;
+	}
+	.header__infomation > .header__title{
+		top: -70px;
+	}
+	.header__image img{
+		height: 190px;
+	}
+}
+
+.apartment__container{
+	padding-top: 15px;
+}
+.apartment__container__item{
+	margin-bottom: 25px;
+}
+.apartment__container__item__image img{
+	max-width: 100%;
+	border-radius: 4px;
+}
+.apartment__container__item__review{
+	margin-top: 15px;
+	padding-right: 20px;
+	font-size: 15px;
+}
+.apartment__container__item__author{
+	display: inline-block;
+}
+.apartment__container__item__author__info{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+}
+.section__title{
+	margin-top: 40px;
+}
+.feature__container{
+	margin-top: 30px;
+}
+.feature__container__item{
+	margin-right: 32px;
+}
+.feature__container__item__icon{
+	margin-bottom: 20px;
+}
+.apartment-booking__container {
+	margin-top: 20px;
+}
+.section-booking > .form-group button{
+	color:white; 
+	background-color: rgb(0, 140, 140); 
+	border: none; 
+	padding: 12px 25px; 
+	font-weight: bold;
+}
+.section-booking > .form-group button:hover{
+	background-color: rgb(0, 132, 137); 	
+}
+.apartment-booking__container__item a{
+	color: black;
+	text-decoration: none;
+}
+.apartment-booking__container__item__image img{
+	max-width: 100%;
+	border-radius: 4px;
+}
+.apartment-booking__container__item__content{
+	margin-top: 10px;
+}
+.apartment-booking__container__item__content__location span{
+	font-size: 13px;
+}
+.apartment-booking__container__item__content__description p{
+	font-size: 14px;
+}
+.section-footer{
+	margin-top: 65px;
+	margin-bottom:65px;
+}
+.footer__navigation{
+	margin-bottom: -10px; 
+}
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.footer__navigation__list__item a{
+	color: #666666;
+}
+.footer__bottom__copyright{
+float: left;
+}
+
+.footer__bottom__select{
+float: right;
+}
+.footer__bottom__select select {
+  border: 0;
+  outline: 0;
+}
+.footer__bottom__select__language{
+float: left;
+padding-right: 10px;
+}
+.footer__bottom__select__payment{
+float: right;
+}
