@@ -1,0 +1,31 @@
+.my-section {
+    border: solid 3px green;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.my-section__content {
+    display: none;
+    padding: 20px 10px;
+}
+
+.my-section__title {
+    cursor: pointer;
+}
+
+.my-section__title > h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+.my-section__title--active {
+    background-color: green;
+}
+
+.my-section__title--active > h2 {
+    color: white;
+}
+
+.my-selector {
+    margin: 20px 0;
+}
