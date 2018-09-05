@@ -1,0 +1,23 @@
+/* Extra-small devices < 768px, equivalent to Bootstrap col-xs */
+@mixin xs{
+	@media screen and (max-width: 767px) {
+		@content;
+
+	}
+}
+
+/* Small devices >= 768px and < 992px, equivalent to Bootstrap col-sm */
+@mixin sm {
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        @content;
+
+    }
+}
+
+/* Medium devices >= 992px, equivalent to Bootstrap col-md */
+@mixin md {
+    @media screen and (min-width: 992px) {
+        @content;
+
+    }
+}

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Airbnb - Homes list</title>
+    <!-- Load Bootstrap 3 -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Load Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <!-- Load custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Section: Header image with Form -->
+    <section class="container-fluid section" id="head-form">
+        <div class="sm-background common__sm-only common__xs-only">
+            <h1 class="form__title common__sm-only common__xs-only">Find homes on Airbnb</h1>
+            <div class="form__description common__sm-only">Discover entire homes and private rooms perfect for any trip.</div>
+        </div>
+        <div class="container head-form__outter-container">
+            <div class="row head-form__inner-container">
+                <div class="col-md-6 col-sm-12">
+                    <form action="#" class="form" id="main-form">
+                        <h1 class="form__title common__md-only">Find homes on Airbnb</h1>
+                        <div class="form__description common__md-only">Discover entire homes and private rooms perfect for
+                            any trip.</div>
+                        <div class="form__input-div form__input-div--full-width">
+                            <label class="input-div__label" for="location">Where</label>
+                            <input class="input-div__input--full-width" type="text" name="location" id="location" placeholder="Anywhere">
+                        </div>
+                        <div class="form__input-div form__input-div--half-width">
+                            <label class="input-div__label" for="check-in">Check-in</label>
+                            <input type="date" name="check-in" id="check-in">
+                        </div>
+                        <div class="form__input-div form__input-div--half-width">
+                            <label class="input-div__label" for="check-out">Check-out</label>
+                            <input type="date" name="check-out" id="check-out">
+                        </div>
+                        <div class="form__input-div form__input-div--half-width">
+                            <label class="input-div__label" for="adults">Adults</label>
+                            <select name="adults" id="adults">
+                                <option value="1-adult">1 adult</option>
+                                <option value="2-adults">2 adults</option>
+                                <option value="3-adults">3 adults</option>
+                                <option value="4-adults">4 adults</option>
+                                <option value="5-adults">5 adults</option>
+                                <option value="6-adults">6 adults</option>
+                                <option value="7-adults">7 adults</option>
+                                <option value="8-adults">8 adults</option>
+                                <option value="9-adults">9 adults</option>
+                                <option value="10-adults">10 adults</option>
+                                <option value="11-adults">11 adults</option>
+                                <option value="12-adults">12 adults</option>
+                                <option value="13-adults">13 adults</option>
+                                <option value="14-adults">14 adults</option>
+                                <option value="15-adults">15 adults</option>
+                                <option value="16-adults">16 adults</option>
+                            </select>
+                        </div>
+                        <div class="form__input-div form__input-div--half-width">
+                            <label class="input-div__label" for="children">Children</label>
+                            <select name="children" id="children">
+                                <option value="0-children">0 children</option>
+                                <option value="1-child">1 child</option>
+                                <option value="2-children">2 children</option>
+                                <option value="3-children">3 children</option>
+                                <option value="4-children">4 children</option>
+                                <option value="5-children">5 children</option>
+                            </select>
+                        </div>
+                        <input class="form__submit-button" type="submit" value="Search">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Reviews -->
+    <section class="container section" id="reviews">
+        <h2 class="section__title">
+            What guests are saying about homes in United States
+        </h2>
+        <p class="section__description">United States homes were rated <strong>4.8 out of 5</strong> stars with <strong>26,000,000+
+                reviews
+            </strong></p>
+        <div class="row reviews__container">
+            <div class="col-md-4">
+                <div class="reviews__post">
+                    <a href="#" class="post__image-link">
+                        <img src="assets/images/trailer.webp" alt="A trailer house" class="post__image">
+                    </a>
+                    <ul class="post__star-list common__horizontal-list">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                    </ul>
+                    <p class="post__review-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, ex. Distinctio
+                        cumque, reiciendis illo sit neque cum, adipisci omnis ducimus nihil praesentium id perspiciatis expedita,
+                        autem fuga amet similique alias.</p>
+                    <div class="post__author">
+                        <img src="assets/icons/user.png" alt="user's avatar" class="author__avatar">
+                        <div class="author__detail">
+                            <p class="detail__name">John</p>
+                            <p class="detail__country">United States</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="reviews__post">
+                    <a href="#" class="post__image-link">
+                        <img src="assets/images/house.webp" alt="A trailer house" class="post__image">
+                    </a>
+                    <ul class="post__star-list common__horizontal-list">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                    </ul>
+                    <p class="post__review-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, ex. Distinctio
+                        cumque, reiciendis illo sit neque cum, adipisci omnis ducimus nihil praesentium id perspiciatis expedita,
+                        autem fuga amet similique alias.</p>
+                    <div class="post__author">
+                        <img src="assets/icons/user.png" alt="user's avatar" class="author__avatar">
+                        <div class="author__detail">
+                            <p class="detail__name">Jane</p>
+                            <p class="detail__country">United States</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="reviews__post">
+                    <a href="#" class="post__image-link ">
+                        <img src="assets/images/bedroom.webp" alt="A trailer house" class="post__image">
+                    </a>
+                    <ul class="post__star-list common__horizontal-list">
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                    </ul>
+                    <p class="post__review-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, ex. Distinctio
+                        cumque, reiciendis illo sit neque cum, adipisci omnis ducimus nihil praesentium id perspiciatis expedita,
+                        autem fuga amet similique alias.</p>
+                    <div class="post__author">
+                        <img src="assets/icons/user.png" alt="user's avatar" class="author__avatar">
+                        <div class="author__detail">
+                            <p class="detail__name">Jack</p>
+                            <p class="detail__country">United States</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Features -->
+    <section class="container section" id="features">
+        <h2 class="section__title">Traveling with Airbnb</h2>
+        <div class="row features__container">
+            <div class="col-md-4 col-sm-4">
+                <div class="features__feature-item">
+                    <i class="feature-item__icon far fa-heart"></i>
+                    <div class="feature-item__description">
+                        <div class="description__title">24/7 customer support</div>
+                        <p>Day or night, we’re here for you. Talk to our support team from anywhere in the world, any hour
+                            of day.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="features__feature-item">
+                    <i class="feature-item__icon fas fa-home"></i>
+                    <div class="feature-item__description">
+                        <div class="description__title">Global hospitality standards</div>
+                        <p>Guests review their hosts after each stay. All hosts must maintain a minimum rating and our hospitality
+                            standards to be on Airbnb.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="features__feature-item">
+                    <i class="feature-item__icon far fa-user"></i>
+                    <div class="feature-item__description">
+                        <div class="description__title">5-star hosts</div>
+                        <p>From fresh-pressed sheets to tips on where to get the best brunch, our hosts are full of local
+                            hospitality.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section: Homes list -->
+    <section class="container section" id="homes-list">
+        <h2 class="section__title">Homes in United States</h2>
+        <div class="row homes-list__container">
+            <div class="col-md-3 col-sm-6">
+                <div class="homes-list__home-item">
+                    <img src="assets/images/home1.webp" alt="Secluded Intown Treehouse" class="home-item__image">
+                    <div class="home-item__info">
+                        <p class="info__detail">
+                            <span class="detail__type">Treehouse</span>
+                            <span class="detail__location">Atlanta</span>
+                        </p>
+                        <h3 class="info__name">Secluded Intown Treehouse</h3>
+                        <p class="info__charge">
+                            <span class="charge-rate">$100 per night</span>
+                            <span class="charge-terms">Free cancellation</span>
+                        </p>
+                        <div class="info__rating">
+                            <ul class="rating__star-list common__horizontal-list">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="rating__times">300</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="homes-list__home-item">
+                    <img src="assets/images/home2.webp" alt="Malibu Dream Airstream" class="home-item__image">
+                    <div class="home-item__info">
+                        <p class="info__detail">
+                            <span class="detail__type">Camper/RV</span>
+                            <span class="detail__location">Malibu</span>
+                        </p>
+                        <h3 class="info__name">Malibu Dream Airstream</h3>
+                        <p class="info__charge">
+                            <span class="charge-rate">$100 per night</span>
+                            <span class="charge-terms">Free cancellation</span>
+                        </p>
+                        <div class="info__rating">
+                            <ul class="rating__star-list common__horizontal-list">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="rating__times">300</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 ">
+                <div class="homes-list__home-item">
+                    <img src="assets/images/home3.webp" alt="The Joshua Tree House" class="home-item__image">
+                    <div class="home-item__info">
+                        <p class="info__detail">
+                            <span class="detail__type">Entire House</span>
+                            <span class="detail__location">Joshua Tree</span>
+                        </p>
+                        <h3 class="info__name">The Joshua Tree House</h3>
+                        <p class="info__charge">
+                            <span class="charge-rate">$100 per night</span>
+                            <span class="charge-terms">Free cancellation</span>
+                        </p>
+                        <div class="info__rating">
+                            <ul class="rating__star-list common__horizontal-list">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="rating__times">300</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="homes-list__home-item">
+                    <img src="assets/images/home4.webp" alt="Mushroom Dome Cabin: #1 On Airbnb In The World" class="home-item__image">
+                    <div class="home-item__info">
+                        <p class="info__detail">
+                            <span class="detail__type">Dome house</span>
+                            <span class="detail__location">Aptos</span>
+                        </p>
+                        <h3 class="info__name">Mushroom Dome Cabin: #1 on airbnb in the world</h3>
+                        <p class="info__charge">
+                            <span class="charge-rate">$100 per night</span>
+                            <span class="charge-terms">Free cancellation</span>
+                        </p>
+                        <div class="info__rating">
+                            <ul class="rating__star-list common__horizontal-list">
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                                <li><i class="fas fa-star"></i></li>
+                            </ul>
+                            <span class="rating__times">300</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add travel date -->
+    <section class="container section" id="add-travel-date">
+        <h2 class="section__title">When are you traveling?</h2>
+        <p class="section__description">Add dates for updated pricing and availability.</p>
+        <button class="btn add-travel-date__button" id="toggle-item">Add dates</button>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid footer" id="footer">
+        <div class="container footer__wrapper--1">
+            <div class="row footer__container">
+                <div class="col-md-3 col-sm-3">
+                    <div class="footer-item__footer-list" id="footer-navigation">
+                        <div class="footer-list__title">Airbnb</div>
+                        <ul class="footer-list__list">
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Policies</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Diveristy & Belonging</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="footer-item__footer-list" id="footer-discover">
+                        <div class="footer-list__title">Discover</div>
+                        <ul class="footer-list__list">
+                            <li><a href="#">Trust & Safety</a></li>
+                            <li><a href="#">Travel Credit</a></li>
+                            <li><a href="#">Gift Cards</a></li>
+                            <li><a href="#">Airbnb Citizen</a></li>
+                            <li><a href="#">Business Travel</a></li>
+                            <li><a href="#">Guidebooks</a></li>
+                            <li><a href="#">Airbnbmag</a></li>
+                            <li><a href="#">Events<span class="list__label--new">New</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="footer-item__footer-list" id="footer-hosting">
+                        <div class="footer-list__title">Hosting</div>
+                        <ul class="footer-list__list">
+                            <li><a href="#">Why Host</a></li>
+                            <li><a href="#">Hospitality</a></li>
+                            <li><a href="#">Responsible Hosting</a></li>
+                            <li><a href="#">Community Center</a></li>
+                            <li><a href="#">Host an Experience<span class="list__label--new">New</span></a></li>
+                            <li><a href="#">Open Homes<span class="list__label--new">New</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="footer-item__misc" id="footer-misc">
+                        <ul class="footer-list__social-link-list common__horizontal-list">
+                            <li class="social-link-list__item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="social-link-list__item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li class="social-link-list__item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                        <ul class="footer-list__list">
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container footer__wrapper--2">
+            <div class="row footer__container">
+                <div class="company-info">
+                    <svg class="company-info__logo" viewBox="0 0 1000 1000" role="presentation" aria-hidden="true" focusable="false" style="height: 1.5em; width: 1.5em; display: block; fill: rgb(118, 118, 118);">
+                        <path d="m499.3 736.7c-51-64-81-120.1-91-168.1-10-39-6-70 11-93 18-27 45-40 80-40s62 13 80 40c17 23 21 54 11 93-11 49-41 105-91 168.1zm362.2 43c-7 47-39 86-83 105-85 37-169.1-22-241.1-102 119.1-149.1 141.1-265.1 90-340.2-30-43-73-64-128.1-64-111 0-172.1 94-148.1 203.1 14 59 51 126.1 110 201.1-37 41-72 70-103 88-24 13-47 21-69 23-101 15-180.1-83-144.1-184.1 5-13 15-37 32-74l1-2c55-120.1 122.1-256.1 199.1-407.2l2-5 22-42c17-31 24-45 51-62 13-8 29-12 47-12 36 0 64 21 76 38 6 9 13 21 22 36l21 41 3 6c77 151.1 144.1 287.1 199.1 407.2l1 1 20 46 12 29c9.2 23.1 11.2 46.1 8.2 70.1zm46-90.1c-7-22-19-48-34-79v-1c-71-151.1-137.1-287.1-200.1-409.2l-4-6c-45-92-77-147.1-170.1-147.1-92 0-131.1 64-171.1 147.1l-3 6c-63 122.1-129.1 258.1-200.1 409.2v2l-21 46c-8 19-12 29-13 32-51 140.1 54 263.1 181.1 263.1 1 0 5 0 10-1h14c66-8 134.1-50 203.1-125.1 69 75 137.1 117.1 203.1 125.1h14c5 1 9 1 10 1 127.1.1 232.1-123 181.1-263.1z"></path>
+                    </svg>
+                    <div class="company-info__name">
+                        &copy; Airbnb, Inc.
+                    </div>
+                </div>
+                <div class="page-settings">
+                    <select name="language" id="language-settings">
+                        <option value="vi">Vietnamese</option>
+                        <option value="en">English</option>
+                        <option value="fr">Francais</option>
+                        <option value="de">Deutsch</option>
+                    </select>
+                    <select name="currency" id="currency-settings">
+                        <option value="vnd">VND</option>
+                        <option value="usd">USD</option>
+                        <option value="gbp">GBP</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Load Bootstrap JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- Load custom JS -->
+    <script src="js/toggleItem.js"></script>
+</body>
+
+</html>

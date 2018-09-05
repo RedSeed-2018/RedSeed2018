@@ -1,0 +1,64 @@
+// .homes-list__container {
+
+// }
+
+// .homes-list__home-item {
+
+// }
+
+.home-item {
+
+    &__image {
+        width: 100%;
+        height: auto;
+        border-radius: 3px;
+    }
+
+    &__info {
+        padding-top: 10px;
+
+        > * {
+            line-height: 1.5em;
+
+            &:not(:first-child) {
+                margin-top: 2px;
+            }
+        }
+    }
+}
+
+.info {
+
+    &__detail {
+        text-transform: uppercase;
+    }
+
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        text-transform: capitalize;
+        margin: 0;
+    }
+}
+
+.rating {
+
+    &__star-list {
+        display: inline;
+
+        > li > i {
+            color: $color-teal;
+        }
+    }
+}
+
+/* ****
+Custom Responsive
+**** */
+
+@media screen and (max-width: 991px) {
+    [class*="col-"] {
+        margin-top: 30px;
+    }
+}

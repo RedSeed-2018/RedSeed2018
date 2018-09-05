@@ -1,0 +1,120 @@
+#head-form {
+    background-image: url("../../assets/images/header.jpg");
+    background-size: cover;
+    padding: 64px 0;
+
+    @include sm {
+        background-image: none;
+        padding: 0;
+    }
+
+    @include xs {
+        background-image: none;
+        padding: 0;
+    }
+
+    .sm-background {
+
+        padding: 24px 0 12px 12px;
+        min-height: 72px;
+        color: #fff !important;
+        background-size: cover;
+        
+        @include sm {
+            background-image: url("../../assets/images/header-small.jpg");
+        }
+
+        @include xs {
+            background-image: url("../../assets/images/header-small.jpg");
+        }
+    }
+}
+
+.head-form {
+    
+    &__outter-container {
+        @include sm {
+            width: 100%;
+            margin: 0 !important;
+        }
+    }
+}
+
+.form {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 24px;
+
+    @include sm {
+        border-radius: 0 !important;
+    }
+    
+    @include xs {
+        border-radius: 0 !important;
+    }
+}
+
+.form {
+    &__title {
+        margin: 0 0 12px;
+    }
+
+    &__description {
+        font-size: 18px;
+    }
+
+    &__submit-button {
+        width: 100%;
+        background-color: $color-pink;
+        color: #fff;
+        font-weight: bold;
+        font-size: 16px;
+        padding: 12px 0;
+        border-radius: 4px;
+        margin-top: 36px;
+        transition: background 0.2s;
+
+        &:focus {
+            background-color: darken($color-pink, 5%);
+        }
+    }
+}
+
+.form__input-div {
+    display: inline-block;
+
+    input, select {
+        border: $standard-border;
+        border-radius: 4px;
+        font-size: 16px;
+        padding: 12px 12px;
+        width: 100%;
+        transition: border 0.2s;
+    }
+
+    input:focus, select:focus {
+        border: 1px solid $color-teal;
+    }
+
+    &--full-width {
+        width: 100%;
+    }
+
+    &--half-width {
+        width: 49%;
+        &:nth-child(odd) {
+            margin-left: 1.05%;
+        }
+    }
+}
+
+.input-div {
+
+    &__label {
+        display: block;
+        text-transform: uppercase;
+        font-size: 13px;
+        margin-top: 18px;
+        margin-bottom: 6px;
+    }
+}

@@ -1,0 +1,17 @@
+#add-travel-date {
+    padding-bottom: 64px;
+}
+
+.add-travel-date__button {
+    outline: none;
+    background-color: $color-teal;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 24px;
+
+    /* Override Bootstrap */
+    &:hover {
+        color: #fff !important;
+    }
+}

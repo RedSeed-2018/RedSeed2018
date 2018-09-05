@@ -1,0 +1,45 @@
+.features__container {
+    padding: 24px 0;
+    border-top: $standard-border;
+    border-bottom: $standard-border;
+
+    @include xs {
+        padding-top: 0;
+    }
+}
+
+.features {
+
+    &__feature-item {
+
+        @include xs {
+            text-align: center;
+        }
+    }
+}
+
+.feature-item {
+
+    &__icon {
+        font-size: 52px;
+        color: $color-teal;
+    }
+
+    &__description {
+        margin: 12px 24px 0 0;
+
+        @include xs {
+            margin-right: 0;
+        }
+    }
+
+}
+
+.description {
+
+    &__title {
+        font-weight: 700;
+        font-size: 16px;
+    }
+}
+
