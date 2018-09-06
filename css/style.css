@@ -1,0 +1,146 @@
+html, body{
+    height: 100%;
+}
+
+.header-img {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+/* @media only screen and (max-width: 800px) {
+    .header-img {
+        height: 30%;
+    }
+}
+
+.form {
+    background-color: white;
+    margin-top: 20%;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.form input {
+    border-radius: 2px;
+    border: 1px solid #c0c0c0;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 5px;
+}
+
+.form input::placeholder {
+    font-weight: bold;
+    color: rgb(83, 83, 83);
+} */
+
+/* svg {
+    position: absolute;
+    height: auto;
+    width: 30%;
+    margin: 10px 10px; 
+} */
+
+.section__title {
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.item__icon {
+    font-size: 40px;
+    color: cyan;
+    margin-top: 20px;
+}
+
+.item__title {
+    margin-top: 16px;
+}
+
+.section__container {
+    margin: 30px auto;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.section__description {
+    padding: 4px 2px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.section__description svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    width: 100%;
+}
+
+
+.item__home img {
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.rating {
+    margin: 5px 0 0 0;
+}
+
+.rating ul {
+    padding: 0;
+}
+
+.rating li {
+    display: inline;
+}
+
+.rating .fa-star {
+    color: yellow;
+}
+.section__user {
+}
+            
+.section__user img {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.section__user__info {
+    margin-left: 50px;
+    box-sizing: border-box;
+}
+
+.section__user__info p {
+    margin: 0;
+}
+
+.section__homes {
+    line-height: normal;
+}
+
+.section__homes img {
+    border-radius: 5px;
+}
+
+.section__homes p {
+    margin: 0;
+}
+
+.section__homes__content {
+    text-overflow: ellipsis;
+    line-height: normal;
+}
+
+.section__homes__content .rating {
+    display: inline;
+}
+
+.section__homes__content .count {
+    display: inline;
+}
