@@ -1,5 +1,5 @@
 #head-form {
-    background-image: url("../../assets/images/header.jpg");
+    background-image: url('../assets/images/header.jpg');
     background-size: cover;
     padding: 64px 0;
 
@@ -21,11 +21,11 @@
         background-size: cover;
         
         @include sm {
-            background-image: url("../../assets/images/header-small.jpg");
+            background-image: url('../assets/images/header-small.jpg');
         }
 
         @include xs {
-            background-image: url("../../assets/images/header-small.jpg");
+            background-image: url('../assets/images/header-small.jpg');
         }
     }
 }

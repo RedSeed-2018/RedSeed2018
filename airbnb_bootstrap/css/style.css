@@ -103,7 +103,7 @@ ul.common__horizontal-list > li {
 }
 
 #head-form {
-  background-image: url("../../assets/images/header.jpg");
+  background-image: url("../assets/images/header.jpg");
   background-size: cover;
   padding: 64px 0;
 }
@@ -127,12 +127,12 @@ ul.common__horizontal-list > li {
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   #head-form .sm-background {
-    background-image: url("../../assets/images/header-small.jpg");
+    background-image: url("../assets/images/header-small.jpg");
   }
 }
 @media screen and (max-width: 767px) {
   #head-form .sm-background {
-    background-image: url("../../assets/images/header-small.jpg");
+    background-image: url("../assets/images/header-small.jpg");
   }
 }
 
