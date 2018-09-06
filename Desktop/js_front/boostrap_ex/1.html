@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Example </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+ 	<script type="text/javascript" src="1.js"></script>
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="1.css">
+</head>
+<body >
+ <section class="blog-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-6">
+					<div class="header">
+						<h2 class="header__title">Trouvez des logements sur Airbnb</h2>
+						<div class="header__description">Découvrez des chambres privées ou des logements entiers, parfaitement adaptés à tout type de voyage.</div>
+						<div class="header-form">
+							<div class="header-form__item">
+								<div class="header-form__item__title">OÙ</div>
+								<input type="text" class="form-inline" name="" value="" placeholder="Focus me">
+							</div><!-- het 1 item -->
+							<div class="header-form__item">
+								<div class="row">
+									<div class="col-xl-6">
+										<div class="header-form__item__title">ARRIVÉE</div>
+										<input type="text" class="form-inline" name="" value="" placeholder="jj/mm/aa">
+									</div>
+									<div class="col-xl-6">
+										<div class="header-form__item__title">DÉPART</div>
+										<input type="text" class="form-inline" name="" value="" placeholder="jj/mm/aa">
+									</div>		
+								</div>
+							</div><!-- het 1 item -->
+							<div class="header-form__item">
+								<div class="row">
+									<div class="col-xl-6">
+										<div class="header-form__item__title">ADULTES</div>
+										<select name="select1" id="select1" class="custom-select">
+											<script>
+												var html='';
+
+												for (var i = 1; i <=16; i++){
+        
+           										 html += '<option>'+i+' adulte'+'</option>';
+           										 
+           										}
+           										document.write(html);
+        
+    
+											</script>
+										</select>
+									</div>
+									<div class="col-xl-6">
+										<div class="header-form__item__title">ENFANTS</div>
+										<select name="select2" class="custom-select">
+											<script>
+												var html='';
+
+												for (var i = 0; i <=1; i++){
+        
+           										 html += '<option>'+i+' anfant'+'</option>';
+           										 
+           										}
+           										for (var i = 2; i <=5; i++){
+        
+           										 html += '<option>'+i+' anfants'+'</option>';
+           										 
+           										}
+           										document.write(html);
+        
+    
+											</script>
+										</select>
+									</div>		
+								</div>
+							</div><!-- het 1 item -->
+							<div class="header-form__item">
+								<div class="row">
+									<div class="col-xl-12">
+										<div class="btn btn-danger btn-submit-form">Rechercher</div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- het form -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section> <!-- het sec	1 -->
+	<section class="nav-header">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xl-12">
+					<nav class="navbar navbar-light bg-faded">
+					<a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+					<ul class="nav navbar-nav menu-top">
+						<li class="nav-item ">
+							<input type="text" class="form-control" placeholder="Partout">
+						</li>
+						<li class="nav-item">
+							<input type="text" class="form-control" placeholder="Partout">
+						</li>
+						<li class="nav-item">
+							<input type="text" class="form-control" placeholder="Partout">
+							<button class="btn btn-nav" type="submit">Rechercher</button>
+							
+						</li>
+						
+					</ul>
+					
+				</nav>
+				</div>
+			</div>
+		</div>
+
+			
+		</section>
+	<section class="hidden-sec ">
+		<div>
+				<img src="1.jpg" width="100%" alt="">
+				<h2 class="hidden-sec-title">Trouvez des logements sur Airbnb</h2>
+				<div class="hidden-sec__description">Découvrez des chambres privées ou des logements entiers, parfaitement adaptés à tout type de voyage.</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				
+				
+				<div class="col-sm-12 ">
+					<div class="header-form">
+								<div class="header-form__item">
+									<div class="header-form__item__title">OÙ</div>
+									<input type="text" class="form-inline" name="" value="" placeholder="Focus me">
+								</div><!-- het 1 item -->
+								<div class="header-form__item">
+									<div class="row">
+										<div class="col-xl-6">
+											<div class="header-form__item__title">ARRIVÉE</div>
+											<input type="text" class="form-inline" name="" value="" placeholder="jj/mm/aa">
+										</div>
+										<div class="col-xl-6">
+											<div class="header-form__item__title">DÉPART</div>
+											<input type="text" class="form-inline" name="" value="" placeholder="jj/mm/aa">
+										</div>		
+									</div>
+								</div><!-- het 1 item -->
+								<div class="header-form__item">
+									<div class="row">
+										<div class="col-sm-6">
+											<div class="header-form__item__title">ADULTES</div>
+											<select name="select1" id="select1" class="custom-select">
+												<script>
+													var html='';
+
+													for (var i = 1; i <=16; i++){
+	        
+	           										 html += '<option>'+i+' adulte'+'</option>';
+	           										 
+	           										}
+	           										document.write(html);
+	        
+	    
+												</script>
+											</select>
+										</div>
+										<div class="col-sm-6">
+											<div class="header-form__item__title">ENFANTS</div>
+											<select name="select2" class="custom-select">
+												<script>
+													var html='';
+
+													for (var i = 0; i <=1; i++){
+	        
+	           										 html += '<option>'+i+' anfant'+'</option>';
+	           										 
+	           										}
+	           										for (var i = 2; i <=5; i++){
+	        
+	           										 html += '<option>'+i+' anfants'+'</option>';
+	           										 
+	           										}
+	           										document.write(html);
+	        
+	    
+												</script>
+											</select>
+										</div>		
+									</div>
+								</div><!-- het 1 item -->
+								<div class="header-form__item">
+									<div class="row">
+										<div class="col-xl-12">
+											<div class="btn btn-danger btn-submit-form">Rechercher</div>
+										</div>
+									</div>
+								</div>
+							</div> <!-- het form -->
+				</div>
+			</div>
+		</div>
+	</section> <!-- het hidden-sec -->
+	
+	<section class="container apartment-container">
+		<h3 class="item-title">États-Unis : ce que les autres voyageurs ont pensé de leur logement</h3>
+			
+		<div class="apartment-container__item-rating"><i class="fa fa-star"></i> Les logements de États-Unis ont obtenu 4.8 étoiles sur 5 et plus de 26 000 000 commentaires</div>
+			
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="apartment-item">
+					<div class="apartment-item__img">
+						<img src="2.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="apartment-item__rating"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+					<div class="apartment-item__review">Nous avons passé un très bon séjour chez Danielle. L'accueil était excellent (elle est même venue nous chercher en voiture à la </div>
+					<div class="apartment-item__author">
+						<div class="row">
+							<div class="col-sm-3">
+								<div class="apartment-item__author--img"><img class="img-fluid round_img" src="3.png" alt=""></div>
+							</div>
+							<div class="col-sm-9">
+								<div class="apartment-item__author--infor">
+									<div class="apartment-item__author--infor--name">Thibaut</div>
+									<div class="apartment-item__author--infor--country">France</div>
+								</div>
+							</div>
+						</div>
+						
+							
+					</div>
+				</div><!-- het item -->
+			</div>
+			<div class="col-sm-4">
+				<div class="apartment-item">
+					<div class="apartment-item__img">
+						<img src="2.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="apartment-item__rating"><i class="fa fa-star"></i></div>
+					<div class="apartment-item__review">Nous avons passé un très bon séjour chez Danielle. L'accueil était excellent (elle est même venue nous chercher en voiture à la </div>
+					<div class="apartment-item__author">
+						<div class="row">
+							<div class="col-sm-3">
+								<div class="apartment-item__author--img"><img class="img-fluid round_img" src="3.png" alt=""></div>
+							</div>
+							<div class="col-sm-9">
+								<div class="apartment-item__author--infor">
+									<div class="apartment-item__author--infor--name">Thibaut</div>
+									<div class="apartment-item__author--infor--country">France</div>
+								</div>
+							</div>
+						</div>
+						
+							
+					</div>
+				</div><!-- het item -->
+			</div>
+			<div class="col-sm-4">
+				<div class="apartment-item">
+					<div class="apartment-item__img">
+						<img src="2.jpg" class="img-fluid" alt="">
+					</div>
+					<div class="apartment-item__rating"><i class="fa fa-star"></i></div>
+					<div class="apartment-item__review">Nous avons passé un très bon séjour chez Danielle. L'accueil était excellent (elle est même venue nous chercher en voiture à la </div>
+					<div class="apartment-item__author">
+						<div class="row">
+							<div class="col-sm-3">
+								<div class="apartment-item__author--img"><img class="img-fluid round_img" src="3.png" alt=""></div>
+							</div>
+							<div class="col-sm-9">
+								<div class="apartment-item__author--infor">
+									<div class="apartment-item__author--infor--name">Thibaut</div>
+									<div class="apartment-item__author--infor--country">France</div>
+								</div>
+							</div>
+						</div>
+						
+							
+					</div>
+				</div><!-- het item -->
+			</div>
+			
+			
+		</div><!-- hetrow -->
+	</section>
+	<section class="container feature-container">
+		<h3 class="item-title">Voyager avec Airbnb</h3>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="feature-item">
+					<div class="feature-item__img">
+						<i class="fa fa-heart fa-3x"></i>
+					</div>
+					<div class="feature-item__name">Assistance utilisateurs 24h/24</div>
+					<div class="apartment-item__desciption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores natus perferendis, et nihil sunt tempora, quasi cupiditate a accusantium officiis? </div>	
+				</div><!-- het item -->
+			</div>
+			<div class="col-sm-4">
+				<div class="feature-item">
+					<div class="feature-item__img">
+						<i class="fa fa-home fa-3x"></i>
+					</div>
+					<div class="feature-item__name">Assistance utilisateurs 24h/24</div>
+					<div class="apartment-item__desciption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores natus perferendis, et nihil sunt tempora, quasi cupiditate a accusantium officiis? </div>	
+				</div><!-- het item -->
+			</div>
+			<div class="col-sm-4">
+				<div class="feature-item">
+					<div class="feature-item__img">
+						<i class="fa fa-user fa-3x"></i>
+					</div>
+					<div class="feature-item__name">Assistance utilisateurs 24h/24</div>
+					<div class="apartment-item__desciption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores natus perferendis, et nihil sunt tempora, quasi cupiditate a accusantium officiis? </div>	
+				</div><!-- het item -->
+			</div>
+		</div>
+	</section> <!-- het sec3 -->
+	<section class="booking-apartment-container container">
+		<h4 class="item-title">Logements à États-Unis</h4>
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="booking-apartment-item">
+					<a href="#"><img src="2.jpg" class="img-fluid booking-apartment-item__img" alt=""></a>
+					<a href="#"><div class="booking-apartment-item__title">CABANE DANS LES ARBRES · ATLANTA</div></a>
+					<a href="#"><div class="booking-apartment-item__name">Secluded Intown Treehouse</div></a>
+					<a href="#"><div class="booking-apartment-item__description"></div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quisquam?</a>
+						<a href="#"><div class="booking-apartment-item__rating"><i class="fa fa-star"></i></div></a>
+				</div>
+				
+			</div><!-- hetcol -->
+			<div class="col-sm-3">
+				<div class="booking-apartment-item">
+					<a href="#"><img src="2.jpg" class="img-fluid booking-apartment-item__img" alt=""></a>
+					<a href="#"><div class="booking-apartment-item__title">CABANE DANS LES ARBRES · ATLANTA</div></a>
+					<a href="#"><div class="booking-apartment-item__name">Secluded Intown Treehouse</div></a>
+					<a href="#"><div class="booking-apartment-item__description"></div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quisquam?</a>
+						<a href="#"><div class="booking-apartment-item__rating"><i class="fa fa-star"></i></div></a>
+				</div>
+				
+			</div><!-- hetcol -->
+			<div class="col-sm-3">
+				<div class="booking-apartment-item">
+					<a href="#"><img src="2.jpg" class="img-fluid booking-apartment-item__img" alt=""></a>
+					<a href="#"><div class="booking-apartment-item__title">CABANE DANS LES ARBRES · ATLANTA</div></a>
+					<a href="#"><div class="booking-apartment-item__name">Secluded Intown Treehouse</div></a>
+					<a href="#"><div class="booking-apartment-item__description"></div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quisquam?</a>
+						<a href="#"><div class="booking-apartment-item__rating"><i class="fa fa-star"></i></div></a>
+				</div>
+				
+			</div><!-- hetcol --><div class="col-sm-3">
+				<div class="booking-apartment-item">
+					<a href="#"><img src="2.jpg" class="img-fluid booking-apartment-item__img" alt=""></a>
+					<a href="#"><div class="booking-apartment-item__title">CABANE DANS LES ARBRES · ATLANTA</div></a>
+					<a href="#"><div class="booking-apartment-item__name">Secluded Intown Treehouse</div></a>
+					<a href="#"><div class="booking-apartment-item__description"></div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, quisquam?</a>
+						<a href="#"><div class="booking-apartment-item__rating"><i class="fa fa-star"></i></div></a>
+				</div>
+				
+			</div><!-- hetcol -->
+			
+			
+		</div>
+		<div class="booking-apartment-showmore"><a href="">Afficher les (22 000+) -></a></div>
+		<h4 class="question">Quand voyagez-vous ?</h4>
+		<div class="date">Vérifiez la disponibilité et le prix en ajoutant des dates.</div>
+		<div class="btn btn-date">Lorem ipsum dolor</div>
+	</section>
+	<hr>
+	<section class="footer container">
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="nav-footer">
+					<div class="nav-footer__title">Airbnb</div>
+					<ul class="nav-footer__list">
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						
+						
+					</ul>
+				</div>
+			</div> <!-- het  col -->
+			<div class="col-sm-3">
+				<div class="nav-footer">
+					<div class="nav-footer__title">Airbnb</div>
+					<ul class="nav-footer__list">
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						
+						
+					</ul>
+				</div>
+			</div> <!-- het  col -->
+			<div class="col-sm-3">
+				<div class="nav-footer">
+					<div class="nav-footer__title">Airbnb</div>
+					<ul class="nav-footer__list">
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						
+						
+					</ul>
+				</div>
+			</div> <!-- het  col -->
+			<div class="col-sm-3">
+				<div class="nav-footer">
+					<div class="nav-footer__icon">
+						<i class="fa fa-facebook"></i>
+						<i class="fa fa-twitter"></i>
+						<i class="fa fa-instagram"></i>
+					</div>
+					<ul class="nav-footer__list">
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						<a href="#"><li>lorem</li></a>
+						
+						
+					</ul>
+				</div>
+			</div> <!-- het  col -->
+			
+		</div><!-- hetrow -->
+		<div class="footer-bottom">
+			<div class="row ">
+
+				<div class="col-xs-6 ">
+					<div class="svg-left ">
+						<i class="icon-svg">
+							<path d="m499.3 736.7c-51-64-81-120.1-91-168.1-10-39-6-70 11-93 18-27 45-40 80-40s62 13 80 40c17 23 21 54 11 93-11 49-41 105-91 168.1zm362.2 43c-7 47-39 86-83 105-85 37-169.1-22-241.1-102 119.1-149.1 141.1-265.1 90-340.2-30-43-73-64-128.1-64-111 0-172.1 94-148.1 203.1 14 59 51 126.1 110 201.1-37 41-72 70-103 88-24 13-47 21-69 23-101 15-180.1-83-144.1-184.1 5-13 15-37 32-74l1-2c55-120.1 122.1-256.1 199.1-407.2l2-5 22-42c17-31 24-45 51-62 13-8 29-12 47-12 36 0 64 21 76 38 6 9 13 21 22 36l21 41 3 6c77 151.1 144.1 287.1 199.1 407.2l1 1 20 46 12 29c9.2 23.1 11.2 46.1 8.2 70.1zm46-90.1c-7-22-19-48-34-79v-1c-71-151.1-137.1-287.1-200.1-409.2l-4-6c-45-92-77-147.1-170.1-147.1-92 0-131.1 64-171.1 147.1l-3 6c-63 122.1-129.1 258.1-200.1 409.2v2l-21 46c-8 19-12 29-13 32-51 140.1 54 263.1 181.1 263.1 1 0 5 0 10-1h14c66-8 134.1-50 203.1-125.1 69 75 137.1 117.1 203.1 125.1h14c5 1 9 1 10 1 127.1.1 232.1-123 181.1-263.1z"></path>
+						</i>
+						© Airbnb, Inc
+					</div>
+				</div>
+				<div class="col-xs-6 ">
+					<div class="right-bottom-footer">
+						<select class="custom-select" name="" id="">
+							<option value="">1</option>
+						</select >
+						<select class="custom-select" name="" id="">
+							<option value="">1</option>
+						</select>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+		
+	</section>
+</body>
+</html>
