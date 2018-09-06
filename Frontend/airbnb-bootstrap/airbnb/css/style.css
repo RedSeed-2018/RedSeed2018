@@ -172,7 +172,7 @@ h1, h2 {
     }
 
     .form {
-        background: transparent;
+        background-color: transparent;
         padding: 0;
     }
 
@@ -271,7 +271,7 @@ h1, h2 {
     }
 
     .form {
-        background: white !important;
+        background-color: white !important;
         border-radius: 5px !important;
         padding: 32px !important;
     }    
